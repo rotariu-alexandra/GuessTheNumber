@@ -1,0 +1,218 @@
+
+body {
+    background: linear-gradient(135deg, rgba(89, 165, 216, 0.8), rgba(207, 210, 255, 0.8));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.log-in {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 320px;
+}
+
+.title-login {
+    font-size: 1.8rem;
+    color: #4e46d9;
+    margin-bottom: 10px;
+}
+
+#description-login {
+    font-size: 1rem;
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+
+#inputName {
+    width: 285px;
+    padding: 12px 15px;
+    border: 2px solid #6c63ff;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+#inputName:focus {
+    border-color: #4e46d9;
+    box-shadow: 0px 4px 8px rgba(78, 70, 217, 0.4);
+}
+
+#sign-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+#sign-btn:hover {
+    background: #4e46d9;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    color: rgb(61, 124, 230);
+    font-size: 3rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.section-part {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#pick-title {
+    color: rgb(99, 158, 240);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#pick-btn {
+    background: rgb(45, 110, 201);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#pick-btn:hover {
+    background: rgb(60, 130, 220);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#input {
+    width: 80%;
+    max-width: 250px;
+    padding: 12px;
+    border: 2px solid rgb(99, 158, 240);
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#input:focus {
+    border-color: rgb(45, 110, 201);
+    box-shadow: 0px 6px 10px rgba(45, 110, 201, 0.5);
+}
+
+#check-btn {
+    background: rgb(241, 143, 48);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#check-btn:hover {
+    background: rgb(255, 168, 70);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+
+.conectare {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+.conectare h2 {
+    color: #4e46d9;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.conectare p {
+    color: #6c63ff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #6c63ff;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+    border-color: #4e46d9;
+    box-shadow: 0px 4px 8px rgba(78, 70, 217, 0.4);
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c63ff;
+    font-size: 1.2rem;
+}
+
+#submit-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+#submit-btn:hover {
+    background: #4e46d9;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="log-in">
+        <h2 class="title-login">Login</h2>
+        <p id="description-login">Sign in to start playing</p>
+        <input type="text" id="inputName" placeholder="Enter your username">
+        <button onclick="loginF()" id="sign-btn">Login</button>
+    </div>
+    <header class="nav-bar">
+        <h1 id="title">Guess the number</h1>
+    </header>
+    <section class="section-part">
+        <h3 id="pick-title">Get the number</h3>
+        <button id="pick-btn">Pick</button>    
+        <input type="text" id="input" placeholder="Guess...">
+        <button onclick="checkBtn()" id="check-btn">Check guess</button>
+        <div class="win-eror">
+           <!--  <label for="file">Downloading progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>-->
+             <p id="win"></p>
+             <p id="eror"></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
